@@ -15,3 +15,5 @@ if isLeap(year):
     print("es bisiesto")
 else:
     print("no es bisiesto")
+
+# if year%4==0 and (year%100!=0 or year%400==0):
