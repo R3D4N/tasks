@@ -5,10 +5,10 @@ def main():
     lastList=list(map(noEspacio,lstCountries))
     lastList.sort()
     for item in lastList:
-        print(item,sep=", ")
+        print(item,end=", ")
 
 def noEspacio(item="a"):
     return item.lstrip()
-    
+
 if __name__=="__main__":
     main()
